@@ -6,7 +6,8 @@ The design consists of an Instruction Memory, an Instruction Decoder, a Register
 <img width="947" alt="TopLevel" src="https://github.com/user-attachments/assets/491e0add-86aa-4518-aed3-918bb25a3fc3">
 
 To operate an the registers of the register file, a arithmetic logic unit (ALU) is needed. In this design, a simple integer ALU is used. The ALU takes two 64Bit inputs and calculates a third
-64Bit wide output. The operation of the ALU is controlled by two control signals, which are generated in the instruction decoder
+64Bit wide output. The operation of the ALU is controlled by two control signals, which are generated in the instruction decoder.
+
 <img width="472" alt="ALU" src="https://github.com/user-attachments/assets/5d9aa670-4b00-4274-a4ac-cea6644535c3">
 
 The Instruction decoder is the main control unit of the RISC-V design. It is responsible for generating all control signals and decomposing the instructions from the instruction memory.
